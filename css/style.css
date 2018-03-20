@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   padding: 20px 0;
-  height: 200px; #84px;
+  height: 204px; #84px;
   transition: all 0.5s;
   z-index: 997;
   background: #fff;
@@ -152,13 +152,13 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #header {
     padding: 20px 0;
-    height: 74px;
+    height: 194px #74px;
   }
   #header #logo h1 {
     font-size: 34px;
   }
   #header #logo img {
-    max-height: 40px;
+    max-height: 160px; #40px;
   }
 }
 
