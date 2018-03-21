@@ -4,6 +4,10 @@
   Author: BootstrapMade.com
   License: https://bootstrapmade.com/license/
 */
+.fa-5x {
+        font-size:5em !important;
+    };
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -14,7 +18,7 @@ body {
 }
 
 a {
-  color: #50d8af;
+  color: #d33c4f;
   transition: 0.5s;
 }
 
@@ -40,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #50d8af;
+  background: #d33c4f;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -57,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:focus {
-  background: #50d8af;
+  background: #d33c4f;
   color: #fff;
   outline: none;
 }
@@ -83,11 +87,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #50d8af;
+  color: #d33c4f;
 }
 
 #topbar .contact-info i {
-  color: #50d8af;
+  color: #d33c4f;
   padding: 4px;
 }
 
@@ -106,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #50d8af;
+  color: #d33c4f;
 }
 
 #topbar .social-links a:first-child {
@@ -141,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 a span {
-  color: #50d8af;
+  color: #d33c4f;
 }
 
 #header #logo img {
@@ -195,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content h2 span {
-  color: #50d8af;
+  color: #d33c4f;
   text-decoration: underline;
 }
 
@@ -229,13 +233,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content .btn-projects {
-  background: #50d8af;
-  border: 2px solid #50d8af;
+  background: #d33c4f;
+  border: 2px solid #d33c4f;
 }
 
 #intro .intro-content .btn-projects:hover {
   background: none;
-  color: #50d8af;
+  color: #d33c4f;
 }
 
 #intro #intro-carousel {
@@ -344,12 +348,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #555;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   outline: none;
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #50d8af;
+  color: #d33c4f;
 }
 
 .nav-menu > li {
@@ -377,7 +381,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #50d8af;
+  color: #d33c4f;
 }
 
 .nav-menu ul ul {
@@ -464,11 +468,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #50d8af;
+  color: #d33c4f;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #50d8af;
+  color: #d33c4f;
 }
 
 #mobile-body-overly {
@@ -519,7 +523,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 50px;
   height: 3px;
-  background: #50d8af;
+  background: #d33c4f;
   bottom: 0;
   left: 0;
 }
@@ -580,7 +584,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #50d8af;
+  color: #d33c4f;
 }
 
 #about .content ul {
@@ -627,7 +631,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box .icon i:before {
   background: #0c2e8a;
-  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+  background: linear-gradient(45deg, #0c2e8a 0%, #a3ebd5 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -698,8 +702,79 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients .owl-dot.active {
-  background-color: #50d8af;
+  background-color: #d33c4f;
 }
+
+/* technologies Section
+--------------------------------*/
+#technologies {
+  padding: 30px 0;
+}
+
+#technologies img {
+  max-width: 100%;
+  opacity: 0.5;
+  transition: 0.3s;
+  padding: 15px 0;
+}
+
+#technologies img:hover {
+  opacity: 1;
+}
+
+#technologies .owl-nav, #technologies .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#technologies .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#technologies .owl-dot.active {
+  background-color: #d33c4f;
+}
+
+/* partners Section
+--------------------------------*/
+#partners {
+  padding: 30px 0;
+}
+
+#partners img {
+  max-width: 100%;
+  opacity: 0.5;
+  transition: 0.3s;
+  padding: 15px 0;
+}
+
+#partners img:hover {
+  opacity: 1;
+}
+
+#partners .owl-nav, #partners .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#partners .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#partners .owl-dot.active {
+  background-color: #d33c4f;
+}
+
 
 /* Our Portfolio Section
 --------------------------------*/
@@ -837,7 +912,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #50d8af;
+  background-color: #d33c4f;
 }
 
 /* Call To Action Section
@@ -881,11 +956,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #50d8af;
-  border: 3px solid #50d8af;
+  background: #d33c4f;
+  border: 3px solid #d33c4f;
 }
 
-/* Our Team Section
+/* Our Team Section #d33c4f
 --------------------------------*/
 #team {
   background: #fff;
@@ -907,7 +982,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .details {
-  background: #50d8af;
+  background: #d33c4f;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -953,7 +1028,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #50d8af;
+  color: #d33c4f;
 }
 
 #contact .contact-info address, #contact .contact-info p {
@@ -974,7 +1049,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #50d8af;
+  color: #d33c4f;
 }
 
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
@@ -1006,8 +1081,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #50d8af;
-  border: 1px solid #50d8af;
+  color: #d33c4f;
+  border: 1px solid #d33c4f;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1045,7 +1120,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #50d8af;
+  background: #0c2e8a;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
@@ -1055,7 +1130,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #2dc899;
+  background: #d33c4f;
 }
 
 /*--------------------------------------------------------------
