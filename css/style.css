@@ -121,8 +121,8 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  padding: 20px 0;
-  height: 124px; #84px;
+  padding: 10px 0;
+  height: 104px; #84px;
   transition: all 0.5s;
   z-index: 997;
   background: #fff;
@@ -156,8 +156,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #header {
-    padding: 20px 0;
-    height: 114px; #74px;
+    padding: 10px 0;
+    height: 94px; #74px;
   }
   #header #logo h1 {
     font-size: 34px;
